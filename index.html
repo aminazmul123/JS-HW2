@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Yet Simple Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="count-control">
+      <button class="action up">Increase</button>
+      <input type="number" value="0" class="counter" readonly>
+      <button class="action down">Decrease</button>
+    </section>
+
+    <section class="slider-control">
+      <input type="range" class="range-slider" min="0" max="100">
+      <p class="range-output">Range value: <span>0</span></p>
+    </section>
+
+    <section class="image-control">
+      <div class="image-container">
+        <img src="https://images.pexels.com/photos/2335126/pexels-photo-2335126.jpeg?auto=compress&cs=tinysrgb&w=600"
+          class="front-img visible">
+        <img src="https://images.pexels.com/photos/2724664/pexels-photo-2724664.jpeg?auto=compress&cs=tinysrgb&w=600"
+          class="back-img hidden">
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

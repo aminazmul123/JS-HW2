@@ -1,0 +1,73 @@
+body {
+ font-family: Arial, sans-serif;
+}
+
+.container {
+ max-width: 900px;
+ margin: auto;
+ padding: 20px;
+ text-align: center;
+}
+
+.count-control,
+.slider-control {
+ margin-bottom: 30px;
+}
+
+.action {
+ padding: 10px 20px;
+ margin: 10px;
+ border: none;
+ background-color: #4285F4;
+ color: #fff;
+ font-size: 1em;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+.action.up {
+ background-color: #34A853;
+}
+
+.action.down {
+ background-color: #EA4335;
+}
+
+.counter {
+ padding: 10px;
+ font-size: 1em;
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ width: 50px;
+}
+
+.range-slider {
+ width: 100%;
+}
+
+.range-output {
+ margin-top: 10px;
+}
+
+.image-container {
+ position: relative;
+ width: 300px;
+ height: 300px;
+ margin: auto;
+ overflow: hidden;
+}
+
+.image-container img {
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ transition: opacity 0.5s;
+}
+
+.visible {
+ opacity: 1;
+}
+
+.hidden {
+ opacity: 0;
+}
